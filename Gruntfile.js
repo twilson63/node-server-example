@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     concat: {
       dev: {
         src: ['app/foo.js', 'app/bar.js'],
-        dest: 'js/app.js'
+        dest: 'public/js/app.js'
       }
     },
     jshint: {
@@ -15,8 +15,8 @@ module.exports = function(grunt) {
     },
     uglify: {
       dev: {
-        src: 'js/app.js',
-        dest: 'js/app.min.js'
+        src: 'public/js/app.js',
+        dest: 'public/js/app.min.js'
       }
     },
     watch: {
