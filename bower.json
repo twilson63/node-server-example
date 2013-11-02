@@ -1,0 +1,20 @@
+{
+  "name": "static-html-example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/twilson63/static-html-example",
+  "authors": [
+    "Tom Wilson <tom@jackhq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.1",
+    "jquery": "2.0.3"
+  }
+}
