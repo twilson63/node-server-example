@@ -8,5 +8,8 @@
   "dependencies": {
     "grunt-contrib-concat": "~0.3.0",
     "express": "~3.4.4"
+  },
+  "scripts": {
+    "test": "node test/index.js"
   }
 }

@@ -1,3 +1,3 @@
 document.getElementById('foo').addEventListener('click', function(){
-  alert('Hello FooBar2');
+  alert('Hello World2');
 });
